@@ -7,7 +7,7 @@ let opcao = 0
 
 while(opcao != -1){
     opcao = getInteiroAleatorio(-1,10)
-    console.log(opcao);
+    console.log(`A opção escolhida foi ${opcao}`);
 }
 
 console.log('Finalizou');
